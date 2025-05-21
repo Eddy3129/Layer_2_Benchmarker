@@ -1,2 +1,2 @@
-MyERC20 deployed to: 0x74360d0234CF719f205587BCdAfF759a34684ee5 on network arbitrumSepolia
-StorageManipulator deployed to: 0xAE07d69880d85AFEaFeC090dbA6fc07FC5702129 on network arbitrumSepolia
+npx hardhat run scripts/deploy_MyERC20.js --network opSepolia
+npx hardhat run benchmark_scripts/run_benchmarks.js --network opSepolia
