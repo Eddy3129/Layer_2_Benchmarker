@@ -50,6 +50,11 @@ module.exports = {
       chainId: 11155420,
       accounts: [`0x${PRIVATE_KEY}`],
     },
+    baseSepolia:{
+      url: 'https://base-sepolia.g.alchemy.com/v2/pyPqVuQbXwVj3OYAWst9IY60uR3oSi1q',
+      chainId: 84532,
+      accounts: [`0x${PRIVATE_KEY}`],
+    },
     // ===== (Optional) L1 Testnet for reference using Alchemy =====
     sepolia: { // Ethereum Sepolia Testnet
         url: `https://eth-sepolia.g.alchemy.com/v2/${ALCHEMY_API_KEY}`,
